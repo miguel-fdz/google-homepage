@@ -1,0 +1,70 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div {
+    display: block;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 89px;
+}
+
+footer div, span {
+    color: rgba(0,0,0,.54);
+    background-color: rgba(0,0,0,.05);
+}
+
+#country {
+    border: solid 0.5px;
+    text-align: left;
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+#business {
+    float: left;
+}
+
+#business li {
+    float: left;
+    padding-left: 0px;
+    line-height: 20px;
+}
+
+#privacy {
+    float: right;
+}
+
+#privacy li {
+    float: right;
+    line-height: 20px;
+}
+
+span {
+    border-bottom: solid 0.5px;
+    display: inline;
+    width: 50%;
+}
+
+footer li {
+    font-size: small;
+    width: 100px;
+}
