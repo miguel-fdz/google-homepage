@@ -11,9 +11,14 @@ nav ul li {
     font-size: small;
 }
 
+nav #apps {
+    height: 15px;
+    width: 15px;
+}
+
 li {
     display: inline-block;
-    width: 60px;
+    margin: 0 5px;
     text-align: center;
     vertical-align: middle;
 }
@@ -26,6 +31,11 @@ div {
 #logo {
     margin-top: 90px;
     margin-bottom: 50px;
+}
+
+#logo img {
+    width: 272;
+    height: 92;
 }
 
 #submit {
